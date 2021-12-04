@@ -1,5 +1,32 @@
-@extends('master')
-@section('content')
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- CSRF Token -->
+      <meta name="csrf-token" content="{{ csrf_token() }}">
+      
+      <title>めちゃくちゃあたる性格診断</title>
+      <meta name="description" content="最新のAIを駆使した質問であなたの驚性格を当てます。くほどめちゃくちゃあたります。">
+      <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+      <link href="{{ mix('/sass/sample.css') }}" rel="stylesheet">
+      <script src="{{ mix('js/all.js') }}" async></script>
+  </head>
+  <body>
+    {{-- 1oading --}}
+    <div id="loading" class="load">
+      <div id="loading" class="preloader loading">
+          <span class="slice"></span>
+          <span class="slice"></span>
+          <span class="slice"></span>
+          <span class="slice"></span>
+          <span class="slice"></span>
+          <span class="slice"></span>
+      </div>
+  
+      </div>
+<div class="container">
 <div class="sentence mt-5 mb-4 result">
 	<p>診断結果</p>
 </div>

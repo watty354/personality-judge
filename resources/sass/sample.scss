@@ -574,3 +574,35 @@ p {
 .error {
     color: $sentence;
 }
+
+// =============================シェアボタン
+.share {
+    display: none;
+}
+
+$twitter: #00aced;
+$facebook: #3b5998;
+.twiiter {
+    color: $twitter;
+}
+
+.facebook {
+    color: $facebook;
+}
+
+.share_home p {
+    color: #777;
+    font-size: 6px;
+}
+
+@media screen and (max-width: 979px) {
+    .share {
+        display: block;
+    }
+    .share_button {
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        background-image: linear-gradient(to right, #96FBC4 0%, #F9F586 100%);
+    }
+}
