@@ -7,6 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>偽性格診断</title>
     <meta name="description" content="あなたが作成する相手の性格診断">
+    <meta property="og:title" content="偽性格診断"/>
+    <meta property="og:description" content="あなたが作成する相手の性格診断"/>
+    <meta property="og:image" content="{{ asset('images/about.png')}}"/>
+    <meta property="og:url" content="https://personality-judge.herokuapp.com"/>
+    <meta property="og:type" content="article"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="偽性格診断" />
+    <meta name="twitter:description" content="あなたが作成する相手の性格診断" />
+    <meta name="twitter:image" content="{{ asset('images/about.png')}}" />
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     <link href="{{ mix('/sass/sample.css') }}" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">

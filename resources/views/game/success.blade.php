@@ -11,9 +11,9 @@
     <div>
         <button id="copy" class="button" class="button coisbg" onclick="copy()" value="{{ url ('/game.home', $id) }}">クリックでコピー</button>
     </div>
-    <div class="mt-4 share">
+    {{-- <div class="mt-4 share">
         <a class="share_button button" href="{{ url ('/game.home', $id) }}" target="_blank" rel="nofollow">ラインで共有する</a>
-    </div>
+    </div> --}}
     
     <div class="copy_info">
         <div id="info" class="card-body bg-secondary text-white hide">
