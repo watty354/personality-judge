@@ -12,7 +12,7 @@
         <button id="copy" class="button" class="button coisbg" onclick="copy()" value="{{ url ('/game.home', $id) }}">クリックでコピー</button>
     </div>
     <div class="mt-4 share">
-        <a class="share_button button" href="{{ url ('https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com/game.home', $id) }}" target="_blank" rel="nofollow">ラインで共有する</a>
+        <a class="share_button button" href="{{ url ('/game.home', $id) }}" target="_blank" rel="nofollow">ラインで共有する</a>
     </div>
     
     <div class="copy_info">
