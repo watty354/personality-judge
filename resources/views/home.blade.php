@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>偽性格診断</title>
-    <meta name="description" content="あなたが作成する相手の性格診断">
+    <meta name="description" content="相手の性格診断をあなたが作成してみよう！">
     <meta property="og:title" content="偽性格診断"/>
-    <meta property="og:description" content="あなたが作成する相手の性格診断"/>
+    <meta property="og:description" content="相手の性格診断をあなたが作成してみよう！"/>
     <meta property="og:image" content="{{ asset('images/about.png')}}"/>
     <meta property="og:url" content="https://personality-judge.herokuapp.com"/>
     <meta property="og:type" content="article"/>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="偽性格診断" />
-    <meta name="twitter:description" content="あなたが作成する相手の性格診断" />
+    <meta name="twitter:description" content="相手の性格診断をあなたが作成してみよう！" />
     <meta name="twitter:image" content="{{ asset('images/about.png')}}" />
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     <link href="{{ mix('/sass/sample.css') }}" rel="stylesheet">
@@ -58,7 +58,7 @@
         </div>
 
         <div class="share_home mt-5">
-            <a class="fab fa-twitter-square twiiter fa-3x pr-1 pl-1" href="https://twitter.com/share?url=https://personality-judge.herokuapp.com&text=【偽性格診断】あなたが作成する相手の性格診断" rel="nofollow" target="_blank"></a>
+            <a class="fab fa-twitter-square twiiter fa-3x pr-1 pl-1" href="https://twitter.com/share?url=https://personality-judge.herokuapp.com&text=【偽性格診断】をつくってみよう" rel="nofollow" target="_blank"></a>
             <a class="fab fa-line fa-3x pr-1 pl-1 line" href="https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com" target="_blank" rel="nofollow"></a>
             <a class="fab fa-facebook-square facebook fa-3x pr-1 pl-1" href="https://www.facebook.com/share.php?u=https://personality-judge.herokuapp.com" rel="nofollow" target="_blank"></a>
             <p>共有してくれるとニンマリ</p>
