@@ -48,4 +48,13 @@
 <a href="{{url('/')}}" class="button mt-5 mb-5" onclick="clickBtn3()">ネタばらし</a>
 @endif
 
-@endsection
+<footer class="footer">2021 © m-wada</footer>
+</div>        
+
+
+
+  <!-- Scripts -->
+  <script src="{{ mix('/js/app.js') }}" defer></script>
+  <script src="{{ mix('/js/all.js') }}" defer></script>
+  </body>
+  </html>
