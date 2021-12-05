@@ -48,10 +48,10 @@
             <a href="{{ url('/about') }}"  onclick="clickBtn3()">もう少し詳しく聞きたい</a>
         </div>
 
-        <div class="share_home mt-4">
-            <a class="fab fa-twitter-square twiiter fa-2x pr-1 pl-1" href="https://twitter.com/share?url=https://personality-judge.herokuapp.com&text=【偽性格診断】あなたが作成する相手の性格診断" rel="nofollow" target="_blank"></a>
-            <a class="fab fa-line fa-2x pr-1 pl-1" href="https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com" target="_blank" rel="nofollow" style="color: springgreen;"></a>
-            <a class="fab fa-facebook-square facebook fa-2x pr-1 pl-1" href="https://www.facebook.com/share.php?u=https://personality-judge.herokuapp.com" rel="nofollow" target="_blank"></a>
+        <div class="share_home mt-5">
+            <a class="fab fa-twitter-square twiiter fa-3x pr-1 pl-1" href="https://twitter.com/share?url=https://personality-judge.herokuapp.com&text=【偽性格診断】あなたが作成する相手の性格診断" rel="nofollow" target="_blank"></a>
+            <a class="fab fa-line fa-3x pr-1 pl-1 line" href="https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com" target="_blank" rel="nofollow"></a>
+            <a class="fab fa-facebook-square facebook fa-3x pr-1 pl-1" href="https://www.facebook.com/share.php?u=https://personality-judge.herokuapp.com" rel="nofollow" target="_blank"></a>
             <p>共有してくれるとニンマリ</p>
         </div>
         

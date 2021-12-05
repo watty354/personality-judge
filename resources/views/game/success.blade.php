@@ -11,8 +11,8 @@
     <div>
         <button id="copy" class="button" class="button coisbg" onclick="copy()" value="{{ url ('/game.home', $id) }}">クリックでコピー</button>
     </div>
-    <div class="mt-4">
-        <button id="share" class="button share_button">共有する</button>
+    <div class="mt-4 share">
+        <a class="share_button" href="{{ url ('https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com/game.home', $id) }}" target="_blank" rel="nofollow">ラインで共有する</a>
     </div>
     
     <div class="copy_info">
@@ -32,31 +32,5 @@
         <a href="{{ url ('/game.home', $id) }}" class="button" onclick="clickBtn3()">URLへ</a>
     </div>
 
-    <script type="text/javascript">
-        function(){
-          function share() {
-            if (navigator.share) {
-              navigator.share({
-                title: '性格診断',
-                text: 'めちゃくちゃ当たる性格診断',
-                url: 'https://social-plugins.line.me/lineit/share?url=https://personality-judge.herokuapp.com/game.home', $id
-              })
-              .then(() => {
-                // シェアしたら実行される
-                console.log('Successful share');
-              })
-              .catch((error) => {
-                // シェアせず終了した場合もここに入ってくる。
-                console.log('Error sharing', error));
-              };
-            } else {
-              alert('Web Share API is not supported!!');
-              // Web Share API未対応ブラウザ向けのフォールバックを実装する。
-            }
-          }
-          document.querySelector('#share').addEventListener('click', share);
-        }();
-      </script>
-        
 
 @endsection

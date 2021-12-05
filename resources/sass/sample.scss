@@ -582,8 +582,13 @@ p {
 
 $twitter: #00aced;
 $facebook: #3b5998;
+$line:#06C152;
 .twiiter {
     color: $twitter;
+}
+
+.line {
+    color: $line;
 }
 
 .facebook {
@@ -603,6 +608,7 @@ $facebook: #3b5998;
         width: 200px;
         height: 50px;
         padding: 10px;
-        background-image: linear-gradient(to right, #96FBC4 0%, #F9F586 100%);
+        background-color: $line;
+        color: #efefef;
     }
 }
