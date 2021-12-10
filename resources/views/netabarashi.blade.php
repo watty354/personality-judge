@@ -11,5 +11,5 @@
     </div>
 
 
-        <a href="{{ url('/')}}"  class="button mt-2" onclick="clickBtn3()">あなたも誰かの作ってみよう！</a>
+        <a href="{{ url('/')}}" class="button mt-2" onclick="clickBtn3()">あなたも誰かの作ってみよう！</a>
 @endsection
