@@ -45,11 +45,11 @@
 
 
 @if ($text -> show_id ===1)
-<a href="{{url('/')}}" class="button mt-5 mb-5" onclick="clickBtn3()">ネタばらし</a>
+<a href="{{url('/netabarashi')}}" class="button mt-5 mb-5" onclick="clickBtn3()">実は・・・</a>
 @endif
 
 <footer class="footer">2021 © m-wada</footer>
-</div>        
+</div>     
 
 
 

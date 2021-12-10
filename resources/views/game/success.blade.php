@@ -11,6 +11,7 @@
     <div>
         <button id="copy" class="button" class="button coisbg" onclick="copy()" value="{{ url ('/game.home', $id) }}">クリックでコピー</button>
     </div>
+    <p class="mt-3 explanation">コピーしたら騙す相手に送りつけよう！</p>
     {{-- <div class="mt-4 share">
         <a class="share_button button" href="{{ url ('/game.home', $id) }}" target="_blank" rel="nofollow">ラインで共有する</a>
     </div> --}}
@@ -31,6 +32,7 @@
     <div class="next">
         <a href="{{ url ('/game.home', $id) }}" class="button" onclick="clickBtn3()">URLへ</a>
     </div>
+    <p class="mt-3 explanation">性格診断が始まるので騙す相手に渡そう！</p>
 
 
 @endsection

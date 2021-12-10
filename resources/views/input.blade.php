@@ -11,7 +11,8 @@
 <div class="question mt-5 mb-5">
     <div class="title mb-3 text-left">
         <h3 class="sentence">
-           <span>1.</span>定型文を決める</h3>
+           <span>1.</span>相手の性格を選ぶ</h3>
+           <p class="explanation">騙す相手に近い性格を選ぶことで、どこにでもある胡散臭い定型文を付け足すことになります。</p>
     </div>
     <div class="content">
         {{-- <select name="sentence_id"  value="{{ old('sentence_id') }}">
@@ -35,7 +36,8 @@
 <div class="question mt-5 mb-5">
     <div class="title mb-3 text-left">
         <h3 class="sentence">
-            <span>2.</span>本音を書く</h3>
+            <span>2.</span>騙す相手の診断結果を書く</h3>
+            <p class="explanation">騙す相手に性格診断をさせた後に出てくる結果を、記入してください。<br>そうです相手がどのように質問を答えようが結果はこれが表示されます。</p>
     </div>
     <div class="content ">
         {{-- <textarea name="text">{{ old('text') }}</textarea> --}}
@@ -47,6 +49,11 @@
     oninput="textAreaHeightSet(this)"
     onchange="textAreaHeightSet(this)">{{ old('text') }}</textarea>
     </div>
+
+    <div class="explanation explanation_word">
+        <p>例)</p>
+        <p>男のくせにゴキブリ苦手。人の名前を覚えるのが苦手。<br>ご飯いくとき場所をスパっと決めてくれない、そのくせ頼むのも遅い etc...</p>
+    </div>
 </div>
 
 
@@ -54,6 +61,7 @@
 <div class="question mt-5 mb-5">
     <div class="title mb-3 text-left">
         <h3 class="sentence"><span>3.</span>ネタばらしをする</h3>
+        <p class="explanation">はいを選ぶと最後にあなたが作成したことをネタばらしします</p>
     </div>
     <div class="content text-center">
         <div class="check">
@@ -68,20 +76,14 @@
 </div>
 
 
-        </div>
-    </div>
+
+</div>
+</div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
+<div class="sentence mt-5 mb-5">
+    <a href="{{ url('/about') }}"  onclick="clickBtn3()">もう一度説明を見る</a>
+</div>
 
 @if ($errors->any())
 <div style="color:red;">

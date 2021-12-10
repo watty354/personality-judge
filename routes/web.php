@@ -27,6 +27,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+//ネタばらし
+Route::get('/netabarashi', function () {  
+  return view('netabarashi');
+});
+
   
 
 // 入力画面
