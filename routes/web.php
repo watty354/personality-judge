@@ -24,7 +24,7 @@ Route::get('/about', function () {
 
 //ネタばらし
 Route::get('/netabarashi', function () {  
-  return view('netabarashi');
+ return view('netabarashi');
 });
 
   
