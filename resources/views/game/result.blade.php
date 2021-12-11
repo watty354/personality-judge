@@ -8,7 +8,7 @@
       <meta name="csrf-token" content="{{ csrf_token() }}">
       
       <title>めちゃくちゃあたる性格診断</title>
-      <meta name="description" content="最新のAIを駆使した質問であなたの性格を当てます。驚くほどめちゃくちゃあたります。">
+      <meta name="description" content="最新のAIを駆使した質問であなたの驚性格を当てます。くほどめちゃくちゃあたります。">
       <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
       <link href="{{ mix('/sass/sample.css') }}" rel="stylesheet">
       <script src="{{ mix('js/all.js') }}" async></script>
@@ -45,11 +45,11 @@
 
 
 @if ($text -> show_id ===1)
-<a href="{{url('/netabarashi')}}" class="button mt-5 mb-5" onclick="clickBtn3()">実は・・・</a>
+<a href="{{url('/')}}" class="button mt-5 mb-5" onclick="clickBtn3()">ネタばらし</a>
 @endif
 
 <footer class="footer">2021 © m-wada</footer>
-</div>     
+</div>        
 
 
 

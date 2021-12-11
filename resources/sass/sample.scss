@@ -523,8 +523,9 @@ p {
 
 .main-heading-primary {
     display: block;
-    font-size: 3.0rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    letter-spacing: 2px;
     animation: moveInLeft 1s ease-out;
 }
 
@@ -611,27 +612,4 @@ $line:#06C152;
         background-image: none;
         color: #efefef;
     }
-}
-
-// ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝修正分
-.explanation {
-    color: #777;
-    font-size: 10px;
-}
-
-.explanation_word {
-    display: flex;
-}
-
-.neta {
-    width: 250px;
-}
-
-.flow {
-    font-weight: bold;
-}
-
-.explanation_sentence {
-    font-size: 12px;
-    font-weight: bold;
 }

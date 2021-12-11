@@ -12,6 +12,11 @@
 */
 use Illuminate\Support\Facades\URL;
 
+Route::get('foo', function () {
+      return "foo!()";
+     });
+
+
 //本物HOME
 Route::get('/', function () {  
   return view('home');
@@ -20,11 +25,6 @@ Route::get('/', function () {
 //説明
 Route::get('/about', function () {  
     return view('about');
-});
-
-//ネタばらし
-Route::get('/netabarashi', function () {  
- return view('netabarashi');
 });
 
   

@@ -1,8 +1,9 @@
 @extends('master')
 @section('content')
 <div class="sentence mt-5 mb-4">
-	<p>騙す相手が質問に答えた後<br>以下のように表示されます</p>
+	<p>以下のように表示されます</p>
 </div>
+
 
 
 
