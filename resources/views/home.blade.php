@@ -45,7 +45,7 @@
         
 
         <div class="next mb-5">
-            <a href="{{ url('/about') }}" class="button" onclick="clickBtn3()">入力</a>
+            <a href="{{ url('/about') }}" class="button" onclick="clickBtn3()">作成</a>
         </div>
         
 
